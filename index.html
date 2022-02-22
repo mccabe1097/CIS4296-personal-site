@@ -17,7 +17,6 @@
             height: 100%;
             font-family: 'Monaco', Monospace;
             scroll-behavior: smooth;
-            background-image: image('../images/stanley.jpg');
         }
 
         .faded {
@@ -81,7 +80,7 @@
     </style>
 </head>
 
-<body>
+<body style="background: url(images/stanley.jpg); background-size:100%;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#landing">Capstone 1<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -118,16 +117,16 @@
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Interests</h4>
+            <h4 style="color:cyan"; class="display-4 font-weight-bold mx-auto text-center">Interests</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">My Life in a brief summary</h5>
+            <h5 style="color:cyan"; class="display-5 mx-auto faded text-center mb-4">My Life in a brief summary</h5>
         </div>
         <div class="row w-100">
-            <h5>Sports</h5>
+          <h1 style="color:cyan";><span class="badge bg-secondary">Sports</span></h1>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">I am your typical Philly sports fan. I will die for my teams I support and never
+            <p style="color:cyan"; class="align-top">I am your typical Philly sports fan. I will die for my teams I support and never
             lose faith no matter the situation. I will support any player who puts on a Philly jersey, but once you are in
           another teams jersey, you know the rest. I really do not watch tv besides sports games and the only video games I play are
           sports games. As a kid I played football, baseball, basketball, floor hockey, and soccer. I now coach children's basketball in
@@ -136,20 +135,20 @@
          </p>
         </div>
         <div class="row w-100">
-            <h5>Sneakers</h5>
+            <h1 style="color:cyan";><span class="badge bg-secondary">Sneakers</span></h1>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Not as much anymore, but years ago I was a sneaker fanatic. I was big into the new releases and got as many pairs as
+            <p style ="color:cyan"; class="text-justify">Not as much anymore, but years ago I was a sneaker fanatic. I was big into the new releases and got as many pairs as
             I could in my teen years. I have upwards of 45 pairs of Jordan's, Nike, Adidas, Reebok, New Balance, and even different color (blue) Timberlands.
           I really do enjoy collecting sneakers and it is something I see myself passing on to my kids one day. I keep all my shoes extremely clean as best I can
         and keep some shoes in the box just to protect them. My favorite pairs I will never wear because I am scared to get them dirty, but I do find ways to wear them
       to places I know they will stay clean. </p>
         </div>
         <div class="row w-100">
-            <h5>Cooking</h5>
+  <h1 style="color:cyan";><span class="badge bg-secondary">Cooking</span></h1>
         </div>
         <div class="row w-100">
-            <p class="text-justify">I have been cooking since I was about 12 years old. Maybe earlier. I learned to cook because my mother doesn't cook and my
+            <p style="color:cyan"; class="text-justify">I have been cooking since I was about 12 years old. Maybe earlier. I learned to cook because my mother doesn't cook and my
             brother has no interest. Another reason was because I do not like cheese. I hate the taste and everything about it. I learned to cook meals without cheese
           relatively early in my life and it just went from there. At this point I have my own knife set, 2 differnt grills I use, my own pans, and create my own sauces and spices.
         Some of my favorite dishes to cook are guacamole smash burgers on a flat top grill, fried pickles, boneless/traditional wings (from scratch), and blackened shrimp tacos. </p>
@@ -159,11 +158,12 @@
                     title="Courses"></i></a> </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
+<div class="border border-5">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Side/Goals Projects</h4>
+            <h4 style ="color:cyan"; class="display-4 font-weight-bold mx-auto text-center">Side/Goals Projects</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Some of the things I worked on or want to do in the future</h5>
+            <h5 style="color:cyan";class="display-5 mx-auto faded text-center">Some of the things I worked on or want to do in the future</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
@@ -182,27 +182,30 @@
             </div>
         </div>
         </div>
+      </div>
         <div class="row mt-5 next">
             <a href="#funfacts" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Contact"></i></a> </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Fun Facts</h4>
+            <h4 style="color:cyan" class="display-4 font-weight-bold mx-auto text-center">Fun Facts</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">Only a few.</h5>
+            <h5 style="color:cyan"; class="display-5 mx-auto faded text-center">Only a few.</h5>
         </div>
-<div>
-  <h4>1. I have a twin brother with red hair</h4>
-  <h4>2. I work for Lockheed Martin</h4>
-  <h4>3. I can put both feet behind my head at the same time</h4>
-  <h4>4. I got a bill passed in the state of PA</h4>
-  <h4>5. I am an Eagles fan but have ownership in the Packers</h4>
+<div style="color:cyan";>
+  <ul class="list-group">
+     <li class="list-group-item">1. I have a twin brother with red hair</li>
+  <li class="list-group-item">2. I work for Lockheed Martin</li>
+  <li class="list-group-item">3. I can put both feet behind my head at the same time</li>
+  <li class="list-group-item">4. I got a bill passed in the state of PA</li>
+  <li class="list-group-item">5. I am an Eagles fan but have ownership in the Packers</li>
 </div>
+</ul>
 <br>
 
-<h2> Contact/Github link </h2>
+<h2 style="color:orange"; class="align-text-bottom"> Contact/Github link </h2>
         <div class="row my-4 contacticon">
             <a href="mailto:tuo07919@temple.edu" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
@@ -213,13 +216,15 @@
 
 
         <div>
-          <h2>Education</h2>
-          <p>
+          <h2 style="color:cyan">Education</h2>
+          <p style="color:cyan";>
+            <strong>
             I graduated high school in 2016 and started out my college education at Bloomsburg University. I hated it there and never wanted to go
             so I left within 3 weeks. From there I started at Montgomery County Community College. I spent around 3-4 years at MCCC due to working while
             I was in school and actually switching majors after a year and a half. After I finished at MCCC I decided to transfer into TU which was my first choice
             but I never applied here in the first place because I wanted to start at a community college. I now plan to graduate at the end of next semester and currently
             have no plans to get a Master's degree.
+          </strong>
           </p>
           </div>
         <div class="row mt-5">
